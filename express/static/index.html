@@ -3,12 +3,40 @@
 
 <head>
   <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" href="custom.css" />
 </head>
 
 <body>
 
   <h1>This is a Heading</h1>
   <p>This is a paragraph.</p>
+
+  <table data-test="custom-table">
+    <thead data-test="custom-header">
+      <th data-test="custom-header-column">Lifeform</th>
+      <th data-test="custom-header-column">Type</th>
+      <th data-test="custom-header-column">Name</th>
+      <th data-test="custom-header-column">Age</th>
+    </thead>
+    <tr data-test="custom-row">
+      <td data-test="custom-column">Animal</td>
+      <td data-test="custom-column">Dog</td>
+      <td data-test="custom-column">Charlie</td>
+      <td data-test="custom-column">3 years</td>
+    </tr>
+    <tr data-test="custom-row">
+      <td data-test="custom-column">Animal</td>
+      <td data-test="custom-column">Cat</td>
+      <td data-test="custom-column">Pinky</td>
+      <td data-test="custom-column">11 years</td>
+    </tr>
+    <tr data-test="custom-row">
+      <td data-test="custom-column">Plant</td>
+      <td data-test="custom-column">Cactus</td>
+      <td data-test="custom-column">Pike</td>
+      <td data-test="custom-column">19 years</td>
+    </tr>
+  </table>
 
 </body>
 
